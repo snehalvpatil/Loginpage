@@ -1,0 +1,16 @@
+migrations/
+project_db/
+*.pyc
+Media/
+bower_components/
+db.sqlite3
+*.orig
+*.save
+*~
+*.html~
+.idea
+*REMOTE*
+*LOCAL*
+*BASE*
+*BACKUP*
+
