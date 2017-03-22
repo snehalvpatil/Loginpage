@@ -24,6 +24,8 @@ urlpatterns = [
     url(r'^update/user/$',user_edit),
     url(r'^login/$',login),
     url(r'^login/page/$',login_page),
+    url(r'^get/user/$',get_user),
     url(r'^logout/$',logout_view),
+    url(r'^homepage/$',home_page),
 ]
 

@@ -6,7 +6,8 @@ from django.contrib.auth.models import User
 class Client(models.Model):
 	user=models.OneToOneField(User,null=True)
 	mob_no = models.CharField(max_length=50,null=True)
+	email = models.TextField(max_length=20,null=True)
 
-	def __str__(self):
-		return str(self.user)#+" "+(self.User__last_name)
+	def __unicode__(self):
+		return str(self.user)
 

@@ -1,87 +1,94 @@
 <!DOCTYPE html>
 
 <head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="/static/main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/static/main.css">
 	<title> User registration </title>
 	<meta charset="utf-8">
 
 </head>
 <form role="form" action="/registration/user/" method="POST" >
 
-   <body>
-<div class="container" >
-<div class="page-header">
-    <h3> User registration: </h3>
-</div>
-</div>
-
-
-	<div class="container">
-	<div class="row">
-		<div class='col-md-offset-4'>
-
-	<div class="form-group">
-
-		<div class="col-sm-5" style="color: rgb(250,128,114);background-color: white ;border-width: 3px; border-style: solid; border-color: rgb(250,128,114);">
-
-		<label for="category">User Name :</label>
-		<div class="input-group">
-		<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-list"> </span> </span>
-		<input type="text" name="User_Name" placeholder="Enter category">
+	<body>
+		<div class="container" >
+			<div class="page-header">
+				<h3> User registration: </h3>
+			</div>
 		</div>
 
+		<form action="/login/page/">
+			<div class="container">
+				<div class="row">
+					<div class='col-md-offset-4'>
 
-		<label for="name">First_Name: </label>
-		<div class="input-group">
+						<div class="form-group">
 
-		<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-user"></span> </span>
+							<div class="col-sm-5" style="color: rgb(250,128,114);background-color: white ;border-width: 3px; border-style: solid; border-color: rgb(250,128,114);">
 
-		<input type="text" name="first_name" placeholder="Enter Name"> <br>
-		</div>
-
-
-
-		<label for="name">Last_Name: </label>
-		<div class="input-group">
-
-		<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-user"></span> </span>
-
-		<input type="text" name="last_name" placeholder="Enter Name"> <br>
-		</div>
+								<label for="category">User Name :</label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-list"> </span> </span>
+									<input type="text" name="User_Name" placeholder="Enter category">
+								</div>
 
 
+								<label for="name">First_Name: </label>
+								<div class="input-group">
 
-		<label for="contact">Contact: </label>
-		<div class="input-group">
-		<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-phone"></span></span>
-		<input type="text" name="Mobile_Number" placeholder="Enter Contact No.">
-		</div>
+									<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-user"></span> </span>
 
-
-		<label for="category">Email :</label>
-		<div class="input-group">
-		<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-list"> </span> </span>
-		<input type="text" name="email" placeholder="Enter category">
-		</div>
-
-		<label for="category">User Password :</label>
-		<div class="input-group">
-		<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-list"> </span> </span>
-		<input type="text" name="User_Password" placeholder="Enter category">
-		</div>
+									<input type="text" name="first_name" placeholder="Enter Name"> <br>
+								</div>
 
 
 
-	<br>
-		<div class='col-md-offset-3'>
-		<button type="submit" class="btn btn-primary">Submit</button>
-		<button type="reset" class="btn btn-primary">Reset</button>
+								<label for="name">Last_Name: </label>
+								<div class="input-group">
 
-		</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-   </body>
+									<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-user"></span> </span>
 
-</html>
+									<input type="text" name="last_name" placeholder="Enter Name"> <br>
+								</div>
+
+
+
+								<label for="contact">Contact: </label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-phone"></span></span>
+									<input type="text" name="Mobile_Number" placeholder="Enter Contact No.">
+								</div>
+
+
+								<label for="category">Email :</label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-list"> </span> </span>
+									<input type="text" name="email" placeholder="Enter category">
+								</div>
+
+								<label for="category">User Password :</label>
+								<div class="input-group">
+									<span class="input-group-addon" id="basic-addon1"> <span class="glyphicon glyphicon-list"> </span> </span>
+									<input type="Password" name="User_Password" placeholder="Enter category">
+								</div>
+
+
+
+								<br>
+								<div class='col-md-offset-3'>
+
+
+									<button class="btn btn-success" type="submit"><a href=""> submit </a></button>
+
+
+									<button type="reset" class="btn btn-primary">Reset</button>
+
+
+
+								</div>
+							</form>
+							<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+							<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+						</body>
+
+						</html>
 
